@@ -14,7 +14,14 @@
 ```
 $ ssh cs15lsp23zz@ieng6.ucsd.edu
 ```
+- Type yes to continue and enter your password. The correct output is shown below.
 ![image](remote.png)
 
 ## 3. Trying some commands
+Try the commands below
+* `cd ~`
+* `cd`
+* `ls -lat`
+* `ls <directory>`
+Here is an example of code.
 ![image](command.png)
