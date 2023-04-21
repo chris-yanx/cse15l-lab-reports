@@ -25,6 +25,7 @@ Try the commands below
 * `ls <directory>`
 Here are some examples.
 ![image](command.png)
+
 `ls ..` lists the files in current directory.
 
 ![image](Screenshot 2023-04-21 120214.png)
