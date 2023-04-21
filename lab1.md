@@ -5,7 +5,7 @@
 - Install VScode, don't change any default options.
 - The program looks like this (For windows).
 
-![image](vs_code.png)
+![image](lab1_image/vs_code.png)
 
 ## 2. Remotely Connecting
 - Install Git ([Git for Windows](https://gitforwindows.org/))
@@ -15,7 +15,7 @@
 $ ssh cs15lsp23zz@ieng6.ucsd.edu
 ```
 - Type yes to continue and enter your password. The correct output is shown below.
-![image](remote.png)
+![image](lab1_image/remote.png)
 
 ## 3. Trying some commands
 Try the commands below
@@ -28,14 +28,14 @@ Try the commands below
 
 Here are some examples.
 
-![image](command.png)
+![image](lab1_image/command.png)
 
 `ls ..` lists the files in parent directory.
 
-![image](Screenshot%202023-04-21%20120214.png)
+![image](lab1_image/Screenshot%202023-04-21%20120214.png)
 
 `cp <path>` copies the file from the target path to current path.
 
-![image](Screenshot%202023-04-21%20120809.png)
+![image](lab1_image/Screenshot%202023-04-21%20120809.png)
 
 `cat <path>` prints the content of text file.
