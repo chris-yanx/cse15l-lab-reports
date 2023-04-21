@@ -23,9 +23,19 @@ Try the commands below
 * `cd`
 * `ls -lat`
 * `ls <directory>`
+* `cp <path>`
+* `cat <path>`
+
 Here are some examples.
+
 ![image](command.png)
 
-`ls ..` lists the files in current directory.
+`ls ..` lists the files in parent directory.
 
-![image](Screenshot 2023-04-21 120214.png)
+![image](Screenshot%202023-04-21%20120214.png)
+
+`cp <path>` copies the file from the target path to current path.
+
+![image](Screenshot%202023-04-21%20120809.png)
+
+`cat <path>` prints the content of text file.
