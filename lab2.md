@@ -41,6 +41,28 @@ Symptom:
 
 ![image](lab2_image/Symptom.png)
 
+The bug:
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+
+The fixed code: 
+
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+        int n = arr[i];
+        arr[i] = arr[arr.length - i - 1];
+        arr[arr.length - i - 1] = n;
+    }
+}
+```
+
 
 ## Part 3
 
