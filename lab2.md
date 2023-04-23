@@ -1,16 +1,23 @@
 # Lab Report 2: Servers and bugs
 
 ## Part 1: StringServer
-Code
+
+Code:
 
 ![image](lab2_image/code%20(1).png)
 
 ![image](lab2_image/output%20(1).png)
 
+* It calls the handleRequest method. 
+* url is an object with string field: "localhost:2004/add-messages?s=hello". The string field Result was "How are you" before calling this method.
+* "\n hello" is added to Result after calling this method.
 
 
 ![image](lab2_image/output%20(2).png)
 
+* It calls the handleRequest method. 
+* url is an object with string field: "localhost:2004/add-messages?s=???". The string field Result was "How are you \n hello" before calling this method.
+* "\n ???" is added to Result after calling this method.
 
 
 ## Part 2: Bugs
@@ -65,4 +72,4 @@ static void reverseInPlace(int[] arr) {
 
 
 ## Part 3
-
+I learn how to use JUnit to test my methods. I gain some experiences of debugging and analyzing code. Also, by debugging the methods related to array, list and linked list methods, now I have better understanding of these data structures.
