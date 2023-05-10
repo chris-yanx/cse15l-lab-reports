@@ -103,6 +103,8 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
+The bug in the original code tries to reverse an array in place but does so incorrectly. It mistakenly swaps elements on the left side of the array with elements on the right side of the array.
+The fixed code improves on this by swapping pairs of elements symmetrically around the middle of the array. It only iterates over the first half of the array and for each iteration, swaps the element at the current index with the corresponding element on the opposite side of the array.
 
 ## Part 3
 I learn how to use JUnit to test my methods. I gain some experiences of debugging and analyzing code. Also, by debugging the methods related to array, list and linked list methods, now I have better understanding of these data structures.
