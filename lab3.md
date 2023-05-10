@@ -112,3 +112,21 @@ technical/plos
 `-mindepth 1 -maxdepth 3 -type d` finds all the directories from level 1 to level 3.
 
 [Source](https://www.gnu.org/software/findutils/manual/html_mono/find.html#Directories)
+
+## Option 4: -prune
+
+```
+$ find technical/ -prune
+technical/
+```
+
+`-prune` prevents find from going into the technical directory.
+
+```
+$ find technical/government/ -name "Media" -prune
+technical/government/Media
+```
+
+`-prune` prevents find from going into a directory called Media.
+
+[Source](https://www.gnu.org/software/findutils/manual/html_mono/find.html#Directories)
