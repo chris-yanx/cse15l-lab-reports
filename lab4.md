@@ -23,8 +23,31 @@ git clone git@github.com:chris-yanx/lab7.git
 
 ## Run the tests, demonstrating that they fail
 
+Change current directory to lab7/ and then run the test bash file.
+
+```
+cd lab7/
+bash test.sh
+```
+
 ## Edit the code file to fix the failing test
 
+vim + <file name> to access the failed code.
+  
+```
+vim ListExamples.java
+```
+ 
+`43 <enter>` to jump to the line that has wrong code.
+  
+`e` to jump the last character of first word.
+  
+`r2` to replace the character "1" to "2".
+  
+`:wq` to save and exit the file.
+  
+
 ## Run the tests, demonstrating that they now succeed
+
 ## Commit and push the resulting change to your Github account (you can pick any commit message!)
 
