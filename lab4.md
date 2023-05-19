@@ -38,16 +38,22 @@ vim + <file name> to access the failed code.
 vim ListExamples.java
 ```
  
-`43 <enter>` to jump to the line that has wrong code.
-  
-`e` to jump the last character of first word.
-  
-`r2` to replace the character "1" to "2".
-  
-`:wq <enter>` to save and exit the file.
+  `43 <enter>` to jump to the line that has wrong code.
+
+  `e` to jump the last character of first word.
+
+  `r2` to replace the character "1" to "2".
+
+  `:wq <enter>` to save and exit the file.
   
 
 ## Run the tests, demonstrating that they now succeed
 
+`<up><up> <enter>` to run the test.sh file in the history. The test succeeds now.
+
 ## Commit and push the resulting change to your Github account (you can pick any commit message!)
 
+```
+git commit -m "bug fixed"
+
+```
