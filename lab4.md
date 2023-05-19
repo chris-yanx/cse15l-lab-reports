@@ -1,7 +1,15 @@
 Setup Delete any existing forks of the repository you have on your account
 Setup Fork the repository
 The real deal Start the timer!
-Log into ieng6
+
+## Log into ieng6
+
+```
+$ ssh cs15lsp23hd@ieng6.ucsd.edu
+```
+
+
+
 Clone your fork of the repository from your Github account
 Run the tests, demonstrating that they fail
 Edit the code file to fix the failing test
