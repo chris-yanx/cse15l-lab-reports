@@ -1,9 +1,3 @@
-Setup Delete any existing forks of the repository you have on your account
-
-Setup Fork the repository
-
-The real deal Start the timer!
-
 ## Log into ieng6
 
 I typed the commands below to log into my student account. I have generated the SSH keys so I don't need to input my password again.
@@ -32,7 +26,7 @@ bash test.sh
 
 ## Edit the code file to fix the failing test
 
-vim + <file name> to access the failed code.
+`vim + <file name>` to access the failed code.
 
 ```
 vim ListExamples.java
@@ -51,10 +45,12 @@ vim ListExamples.java
 
 `<up><up> <enter>` to run the test.sh file in the history. The test succeeds now.
 
-## Commit and push the resulting change to your Github account (you can pick any commit message!)
+
+## Commit and push the resulting change to your Github account
+
+Commit and push my repository, the commit message is "bug fixed".
 
 ```
 git commit -m "bug fixed"
-
-
+git push
 ```
