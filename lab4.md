@@ -8,9 +8,12 @@ The real deal Start the timer!
 $ ssh cs15lsp23hd@ieng6.ucsd.edu
 ```
 
+## Clone your fork of the repository from your Github account
+```
+git clone git@github.com:chris-yanx/lab7.git
+```
 
 
-Clone your fork of the repository from your Github account
 Run the tests, demonstrating that they fail
 Edit the code file to fix the failing test
 Run the tests, demonstrating that they now succeed
