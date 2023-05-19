@@ -44,7 +44,7 @@ vim ListExamples.java
   
 `r2` to replace the character "1" to "2".
   
-`:wq` to save and exit the file.
+`:wq <enter>` to save and exit the file.
   
 
 ## Run the tests, demonstrating that they now succeed
