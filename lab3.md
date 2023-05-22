@@ -1,6 +1,10 @@
-# Lab Report 3 - Researching Commands "find"
+# Lab Report 3 - Researching Commands for "find"
 
 ## Option 1: -type
+
+The `-type` option is used to specify the type of files or directories to search for.
+
+* `-type d`: the find command will only return directory entries as search results. This means that it will list all directories that match the specified criteria.
 
 ```
 $ find technical/ -type d
@@ -17,7 +21,7 @@ technical/government/Post_Rate_Comm
 technical/plos
 ```
 
-`-type d` find all the directories from the given path.
+* `-type f`: used with the find command to search for regular files within a given directory hierarchy.It will exclude directories, symbolic links, device files, named pipes, sockets, and other special file types.
 
 ```
 $ find technical/911report/ -type f
@@ -39,7 +43,6 @@ technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 technical/911report/preface.txt
 ```
-`-type f` find all the files from the given path.
 
 [Source](https://www.gnu.org/software/findutils/manual/html_mono/find.html#Type)
 
