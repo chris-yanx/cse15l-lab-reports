@@ -35,8 +35,17 @@ The errors suggest that JUnit library is either missing or not properly configur
 
 ### 2. TA response
 
-1. Check to ensure that you have added the JUnit library to your project's build path.
+1. Check to ensure that you have added to your project's build path.
 2. Verify that the package declaration in your TestListExamples.java file matches the actual package structure.
 3. Since you are running the command under Windows. The path separator on windows is ";", not ":".
 
+### 3. Student retry
+
+The bug is caused by wrong separator ":". After I changed the separator of classpath to ";", the error is fixed.  
+<img width="392" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/55296adb-7083-4e71-a7f2-5dd148b14ece">
+
+### 4. 
+
 ## Part 2 – Reflection
+
+Debugging command lines is really helpful. Before I have to change my code to print out all the values to observe their changes to find the bug. It is good to know that by using the debugging tool, I can stop my code at any point to chech if the behavior is correct.
