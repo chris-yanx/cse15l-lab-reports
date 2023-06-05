@@ -28,10 +28,15 @@ Screeshot of grade.sh:
 
 <img width="662" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/1110f499-855f-4409-b1db-629f2deee31e">
 
+
 The errors suggest that JUnit library is either missing or not properly configured. The java file fail to find the junit test in my file, therefore it cannot successfully import the junit library.
 
 
-### 2.
 
+### 2. TA response
+
+1. Check to ensure that you have added the JUnit library to your project's build path.
+2. Verify that the package declaration in your TestListExamples.java file matches the actual package structure.
+3. Since you are running the command under Windows. The path separator on windows is ";", not ":".
 
 ## Part 2 – Reflection
