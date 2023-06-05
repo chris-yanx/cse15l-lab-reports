@@ -58,6 +58,7 @@ vim ListExamples.java
 
 `<up><up> <enter>` to run the test.sh file in the history. The test succeeds now.
 
+<img width="272" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/8c222d36-3510-474e-9e2f-069ed2e34bc4">
 
 ## Commit and push the resulting change to your Github account
 
@@ -67,3 +68,6 @@ Commit and push my repository, the commit message is "bug fixed".
 git commit -m "bug fixed"
 git push
 ```
+
+<img width="410" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/83915a81-8aae-4a56-b435-c4a24ee64a39">
+
