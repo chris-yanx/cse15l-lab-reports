@@ -40,18 +40,24 @@ bash test.sh
 vim ListExamples.java
 ```
 
+<img width="340" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/8a557faf-083b-4089-802e-a3e68ec09347">
+
+
 `43 <enter>` to jump to the line that has wrong code.
+
+<img width="389" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/9e923ff6-03cb-40ae-a7ae-042c051e41c4">
 
 `e` to jump the last character of first word.
 
+<img width="371" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/f683a0d4-1256-4fb4-8e49-6ba58a5405fd">
+
 `r2` to replace the character "1" to "2".
+
+<img width="376" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/7ae2ff3f-a536-4188-b437-57ed6dee2ba2">
 
 `:wq <enter>` to save and exit the file.
 
-<img width="314" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/be7c0485-9212-47c1-8a23-3b615fe5d7e1">
-
-<img width="379" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/baf35ec5-b858-47ab-8216-a4ebd7d5a283">
-
+<img width="326" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/55f65a20-318b-405a-984a-dcbe7556bb72">
 
 
 ## Run the tests, demonstrating that they now succeed
