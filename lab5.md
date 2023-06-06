@@ -12,6 +12,7 @@ VSCode, Windows 11, Chrome.
 The bash file is successfully executed, the required file exists, a grade is printed based on the correctness of the code.
 
 * Actual Output:
+
 <img width="458" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/bb102cbc-186f-4a77-96fa-15ffbd27be38">
 
 
