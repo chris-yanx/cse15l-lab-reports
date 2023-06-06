@@ -73,4 +73,4 @@ Change the separator of classpath from ":" to ";", the correct classpath should 
 
 ## Part 2 – Reflection
 
-Debugging command lines is really helpful. Before I have to change my code to print out all the values to observe their changes to find the bug. It is good to know that by using the debugging tool, I can stop my code at any point to chech if the behavior is correct.
+Debugging command lines are really helpful. Before I knew this, I have to change my code to print out all the values to observe their changes to find the bug. It is good to know that by using the debugging tool, I can stop my code at any point to check if the behavior is correct. Vim is also a cool tool to edit files, it is convenient to use when I only want to make a few changes on my file, so I don't need to wait to load my JAVA IDE.
