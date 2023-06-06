@@ -48,7 +48,7 @@ The bug is caused by wrong separator ":". After I changed the separator of class
 ### 3. Setup
 * File & directory structure
 
-<img width="145" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/c604308e-c7cb-4b20-85da-4cd6412c5cc2">
+<img width="143" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/4ac659a8-f117-4216-843c-370539ba49ad">
 
 * The contents of each file before fixing the bug
 
