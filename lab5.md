@@ -1,6 +1,6 @@
 # Lab Report 5
 ## Part 1 – Debugging Scenario
-### 1. Student Post
+### Student Post
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
 
 VSCode, Windows 11, Chrome.
@@ -33,18 +33,42 @@ The errors suggest that JUnit library is either missing or not properly configur
 
 
 
-### 2. TA response
+### 1. TA response
 
 1. Check to ensure that you have added to your project's build path.
 2. Verify that the package declaration in your TestListExamples.java file matches the actual package structure.
 3. Since you are running the command under Windows. The path separator on windows is ";", not ":".
 
-### 3. Student retry
+### 2. Student retry
 
 The bug is caused by wrong separator ":". After I changed the separator of classpath to ";", the error is fixed.  
+
 <img width="392" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/55296adb-7083-4e71-a7f2-5dd148b14ece">
 
-### 4. 
+### 3. Setup
+* File & directory structure
+
+<img width="145" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/c604308e-c7cb-4b20-85da-4cd6412c5cc2">
+
+* The contents of each file before fixing the bug
+
+grade.sh
+
+<img width="656" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/5f36d951-2f17-4039-8f86-01164169f304">
+
+TestListExamples.java
+
+<img width="496" alt="image" src="https://github.com/chris-yanx/cse15l-lab-reports/assets/77228505/33be89d5-5971-422b-b2d4-1d0c196e146b">
+
+* The full command line (or lines) you ran to trigger the bug
+
+```
+bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3
+```
+
+* A description of what to edit to fix the bug
+
+Change the separator of classpath from ":" to ";", the correct classpath should be `CPATH=".；lib/hamcrest-core-1.3.jar；lib/junit-4.13.2.jar"`
 
 ## Part 2 – Reflection
 
